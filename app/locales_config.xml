@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Список мов для системних "Мов застосунку" (Android 13+). Нову мову додавайте тут і в LanguageManager. -->
+<locale-config xmlns:android="http://schemas.android.com/apk/res/android">
+    <locale android:name="en" />
+    <locale android:name="uk" />
+    <locale android:name="sk" />
+</locale-config>

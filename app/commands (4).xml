@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="kw_greeting">
+        <item>привіт</item>
+        <item>вітаю</item>
+        <item>доброго ранку</item>
+        <item>добрий день</item>
+        <item>добрий вечір</item>
+    </string-array>
+    <string-array name="kw_time">
+        <item>котра година</item>
+        <item>яка година</item>
+        <item>скільки часу</item>
+        <item>який час</item>
+    </string-array>
+    <string-array name="kw_date">
+        <item>яка дата</item>
+        <item>яке число</item>
+        <item>який день</item>
+    </string-array>
+    <string-array name="kw_battery">
+        <item>батарея</item>
+        <item>батареї</item>
+        <item>заряд</item>
+    </string-array>
+    <string-array name="kw_camera">
+        <item>камера</item>
+        <item>камеру</item>
+    </string-array>
+    <string-array name="kw_timer">
+        <item>таймер</item>
+    </string-array>
+    <string-array name="kw_unit_hour">
+        <item>година</item>
+        <item>години</item>
+        <item>годин</item>
+        <item>годину</item>
+    </string-array>
+    <string-array name="kw_search">
+        <item>знайди в інтернеті</item>
+        <item>знайди</item>
+        <item>пошукай</item>
+        <item>шукай</item>
+        <item>загугли</item>
+    </string-array>
+    <string-array name="kw_help">
+        <item>допомога</item>
+        <item>допоможи</item>
+        <item>що вмієш</item>
+        <item>що можеш</item>
+    </string-array>
+</resources>

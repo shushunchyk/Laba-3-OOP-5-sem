@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Assistant</string>
+
+    <!-- BCP-47 тег мови поточного набору ресурсів: з нього беруться мови розпізнавання/озвучення та формати дати/часу -->
+    <string name="locale_tag">en-US</string>
+
+    <string name="choose_language">Choose language</string>
+    <string name="status_idle">Tap the microphone and speak</string>
+    <string name="status_listening">Listening…</string>
+    <string name="action_start_listening">Start listening</string>
+    <string name="action_stop_listening">Stop listening</string>
+
+    <string name="welcome_message">Hi! I’m your voice assistant. Tap the microphone and say a command. Say “help” to hear what I can do.</string>
+    <string name="reply_greeting">Hello! How can I help you?</string>
+    <string name="reply_time">It is %1$s.</string>
+    <string name="reply_date">Today is %1$s.</string>
+    <string name="reply_battery">Battery level is %1$d%%.</string>
+    <string name="reply_battery_charging">Battery level is %1$d%% and the phone is charging.</string>
+    <string name="reply_camera">Opening the camera.</string>
+    <plurals name="reply_timer_set">
+        <item quantity="one">Timer set for %1$d minute.</item>
+        <item quantity="other">Timer set for %1$d minutes.</item>
+    </plurals>
+    <string name="reply_timer_need_minutes">For how many minutes? Say, for example, “set a timer for 5 minutes”.</string>
+    <string name="reply_timer_invalid">I can set a timer from 1 minute to 24 hours.</string>
+    <string name="reply_search">Searching the web for %1$s.</string>
+    <string name="reply_search_need_query">What should I search for? Say, for example, “search for funny cats”.</string>
+    <string name="reply_help">I can tell the time and date, check the battery, open the camera, set a timer and search the web. For example: “what time is it”, “set a timer for 5 minutes”, “search for funny cats”.</string>
+    <string name="reply_unknown">Sorry, I didn’t understand “%1$s”. Say “help” to see what I can do.</string>
+    <string name="reply_action_failed">Sorry, I can’t do that on this device.</string>
+
+    <string name="error_no_match">I couldn’t recognize the speech. Please try again.</string>
+    <string name="error_speech_timeout">I didn’t hear anything. Please try again.</string>
+    <string name="error_network">Network error. Check your internet connection.</string>
+    <string name="error_audio">Audio recording error.</string>
+    <string name="error_permission">Microphone permission is required.</string>
+    <string name="error_busy">Speech recognition is busy. Try again in a moment.</string>
+    <string name="error_unavailable">There is no speech recognition service on this device.</string>
+    <string name="error_language">This language is not available for speech recognition.</string>
+    <string name="error_unknown">Something went wrong. Please try again.</string>
+</resources>

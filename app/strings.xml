@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Inteligentný asistent</string>
+    <string name="locale_tag">sk-SK</string>
+
+    <string name="choose_language">Vyberte jazyk</string>
+    <string name="status_idle">Klepnite na mikrofón a hovorte</string>
+    <string name="status_listening">Počúvam…</string>
+    <string name="action_start_listening">Začať počúvať</string>
+    <string name="action_stop_listening">Prestať počúvať</string>
+
+    <string name="welcome_message">Ahoj! Som váš hlasový asistent. Klepnite na mikrofón a povedzte príkaz. Povedzte „pomoc“, aby ste zistili, čo viem.</string>
+    <string name="reply_greeting">Ahoj! Ako vám môžem pomôcť?</string>
+    <string name="reply_time">Teraz je %1$s.</string>
+    <string name="reply_date">Dnes je %1$s.</string>
+    <string name="reply_battery">Úroveň nabitia batérie je %1$d%%.</string>
+    <string name="reply_battery_charging">Úroveň nabitia batérie je %1$d%% a telefón sa nabíja.</string>
+    <string name="reply_camera">Otváram fotoaparát.</string>
+    <plurals name="reply_timer_set">
+        <item quantity="one">Časovač nastavený na %1$d minútu.</item>
+        <item quantity="few">Časovač nastavený na %1$d minúty.</item>
+        <item quantity="many">Časovač nastavený na %1$d minúty.</item>
+        <item quantity="other">Časovač nastavený na %1$d minút.</item>
+    </plurals>
+    <string name="reply_timer_need_minutes">Na koľko minút? Povedzte napríklad „nastav časovač na 5 minút“.</string>
+    <string name="reply_timer_invalid">Môžem nastaviť časovač od 1 minúty do 24 hodín.</string>
+    <string name="reply_search">Hľadám na internete: %1$s.</string>
+    <string name="reply_search_need_query">Čo mám hľadať? Povedzte napríklad „vyhľadaj vtipné mačky“.</string>
+    <string name="reply_help">Viem povedať čas a dátum, skontrolovať batériu, otvoriť fotoaparát, nastaviť časovač a hľadať na internete. Napríklad: „koľko je hodín“, „nastav časovač na 5 minút“, „vyhľadaj vtipné mačky“.</string>
+    <string name="reply_unknown">Prepáčte, nerozumel som príkazu „%1$s“. Povedzte „pomoc“, aby ste videli, čo viem.</string>
+    <string name="reply_action_failed">Prepáčte, na tomto zariadení to nedokážem.</string>
+
+    <string name="error_no_match">Nepodarilo sa rozpoznať reč. Skúste to znova.</string>
+    <string name="error_speech_timeout">Nič som nepočul. Skúste to znova.</string>
+    <string name="error_network">Chyba siete. Skontrolujte pripojenie na internet.</string>
+    <string name="error_audio">Chyba nahrávania zvuku.</string>
+    <string name="error_permission">Potrebné je povolenie na používanie mikrofónu.</string>
+    <string name="error_busy">Rozpoznávanie reči je zaneprázdnené. Skúste to o chvíľu.</string>
+    <string name="error_unavailable">Na tomto zariadení nie je služba rozpoznávania reči.</string>
+    <string name="error_language">Tento jazyk nie je dostupný pre rozpoznávanie reči.</string>
+    <string name="error_unknown">Niečo sa pokazilo. Skúste to znova.</string>
+</resources>

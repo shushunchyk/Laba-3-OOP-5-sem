@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Назви мов подаються їхніми власними мовами (автоніми) й не перекладаються -->
+<resources>
+    <string name="language_en" translatable="false">English</string>
+    <string name="language_uk" translatable="false">Українська</string>
+    <string name="language_sk" translatable="false">Slovenčina</string>
+</resources>
