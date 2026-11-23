@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Штучний помічник</string>
+    <string name="locale_tag">uk-UA</string>
+
+    <string name="choose_language">Оберіть мову</string>
+    <string name="status_idle">Натисніть на мікрофон і говоріть</string>
+    <string name="status_listening">Слухаю…</string>
+    <string name="action_start_listening">Почати слухати</string>
+    <string name="action_stop_listening">Припинити слухати</string>
+
+    <string name="welcome_message">Привіт! Я ваш голосовий помічник. Натисніть на мікрофон і скажіть команду. Скажіть «допомога», щоб дізнатися, що я вмію.</string>
+    <string name="reply_greeting">Привіт! Чим можу допомогти?</string>
+    <string name="reply_time">Зараз %1$s.</string>
+    <string name="reply_date">Сьогодні %1$s.</string>
+    <string name="reply_battery">Заряд батареї: %1$d%%.</string>
+    <string name="reply_battery_charging">Заряд батареї: %1$d%%, телефон заряджається.</string>
+    <string name="reply_camera">Відкриваю камеру.</string>
+    <plurals name="reply_timer_set">
+        <item quantity="one">Таймер встановлено на %1$d хвилину.</item>
+        <item quantity="few">Таймер встановлено на %1$d хвилини.</item>
+        <item quantity="many">Таймер встановлено на %1$d хвилин.</item>
+        <item quantity="other">Таймер встановлено на %1$d хвилини.</item>
+    </plurals>
+    <string name="reply_timer_need_minutes">На скільки хвилин? Скажіть, наприклад: «постав таймер на 5 хвилин».</string>
+    <string name="reply_timer_invalid">Я можу встановити таймер від 1 хвилини до 24 годин.</string>
+    <string name="reply_search">Шукаю в інтернеті: %1$s.</string>
+    <string name="reply_search_need_query">Що шукати? Скажіть, наприклад: «знайди смішних котів».</string>
+    <string name="reply_help">Я вмію називати час і дату, перевіряти заряд батареї, відкривати камеру, ставити таймер і шукати в інтернеті. Наприклад: «котра година», «постав таймер на 5 хвилин», «знайди смішних котів».</string>
+    <string name="reply_unknown">Вибачте, я не зрозумів команду «%1$s». Скажіть «допомога», щоб побачити, що я вмію.</string>
+    <string name="reply_action_failed">Вибачте, на цьому пристрої я не можу цього зробити.</string>
+
+    <string name="error_no_match">Не вдалося розпізнати мовлення. Спробуйте ще раз.</string>
+    <string name="error_speech_timeout">Я нічого не почув. Спробуйте ще раз.</string>
+    <string name="error_network">Помилка мережі. Перевірте інтернет-з’єднання.</string>
+    <string name="error_audio">Помилка запису звуку.</string>
+    <string name="error_permission">Потрібен дозвіл на використання мікрофона.</string>
+    <string name="error_busy">Розпізнавання мовлення зайняте. Спробуйте за мить.</string>
+    <string name="error_unavailable">На цьому пристрої немає служби розпізнавання мовлення.</string>
+    <string name="error_language">Ця мова недоступна для розпізнавання мовлення.</string>
+    <string name="error_unknown">Щось пішло не так. Спробуйте ще раз.</string>
+</resources>
