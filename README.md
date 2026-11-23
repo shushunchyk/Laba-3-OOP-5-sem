@@ -48,7 +48,7 @@ smart-assistant/
         │   ├── command/                  Command, CommandParser, CommandExecutor
         │   ├── voice/                    VoiceRecognizer, SpeechSynthesizer, VoiceError
         │   └── ui/                       MainActivity, MainViewModel, ChatAdapter, ChatModels
-        ├── main/res/                     layout, drawable, values{,-uk,-sk}, xml/locales_config
+        ├── main/res/                     layout, drawable, values{,-uk}, xml/locales_config
         └── test/                         CommandParserTest
 ```
 
@@ -85,7 +85,7 @@ smart-assistant/
 
 ## Інтернаціоналізація (i18n)
 
-* Усі рядки — у ресурсах: `values/` (English, за замовчуванням), `values-uk/`, `values-sk/`.
+* Усі рядки — у ресурсах: `values/` (English, за замовчуванням), `values-uk/`.
 * **Plurals** для граматично правильних форм («1 хвилину / 2 хвилини / 5 хвилин»).
 * **Ключові фрази команд** теж локалізовані (`commands.xml`) — нова мова не потребує змін у Kotlin-коді.
 * Мови розпізнавання мовлення й озвучення, формати дати/часу беруться з `R.string.locale_tag`.
